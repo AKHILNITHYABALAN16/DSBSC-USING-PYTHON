@@ -56,11 +56,11 @@ Program
 ~~~~~~~~
 import numpy as np
 import matplotlib.pyplot as plt
-Am = 3.0
-fm = 194
-Ac = 6.0
-fc = 1940
-fs = 19400
+Am = 5.1
+fm = 404
+Ac = 10.2
+fc = 4040
+fs = 40400
 t = np.arange(0, 2/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 plt.subplot(3, 1, 1)
@@ -89,12 +89,13 @@ plt.show()
 
 OUTPUT WAVEFORM
  
- <img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/f24968a3-2b38-4ee6-b919-39ddcd15b081" />
+<img width="795" height="622" alt="image" src="https://github.com/user-attachments/assets/cb16bb62-858a-4e59-9e49-48bced4f596a" />
 
 
 TABULATION
 
-![WhatsApp Image 2025-10-24 at 16 11 49_c4e57dd2](https://github.com/user-attachments/assets/15e80e2c-44aa-44c7-811f-d59966ea91fd)
+![WhatsApp Image 2025-11-27 at 20 18 23_205195b6](https://github.com/user-attachments/assets/1032520f-060c-46a7-a5b0-0e064a6d2d74)
+
 
 
 RESULT
